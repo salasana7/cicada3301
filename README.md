@@ -20,11 +20,11 @@ This project asks: can modern LLMs contribute to cryptanalysis if given properly
 
 ## Why a Fork?
 
-We considered starting from scratch, but the original [scream314/cicada3301](https://github.com/scream314/cicada3301) repo contains irreplaceable assets that took years to collect — 75 Liber Primus JPGs, outguess extractions, audio files, Tor service snapshots, CicadaOS contents, and detailed walkthroughs cross-referencing all of it. Rebuilding that would be pointless duplication.
+I considered starting from scratch, but the original [scream314/cicada3301](https://github.com/scream314/cicada3301) repo contains irreplaceable assets that took years to collect — 75 Liber Primus JPGs, outguess extractions, audio files, Tor service snapshots, CicadaOS contents, and detailed walkthroughs cross-referencing all of it. Rebuilding that would be pointless duplication.
 
-Instead, we keep the `assets/` directory and original documentation untouched, and add a `data/` layer on top with machine-readable structured files that an LLM can actually work with. The original markdown files are great for human researchers; the new data files are optimized for AI consumption.
+Instead, I keep the `assets/` directory and original documentation untouched, and add a `data/` layer on top with machine-readable structured files that an LLM can actually work with. The original markdown files are great for human researchers; the new data files are optimized for AI consumption.
 
-## What We Built
+## What's Been Added
 
 **See [CLAUDE.md](CLAUDE.md) for AI assistant onboarding instructions.**
 
@@ -56,15 +56,15 @@ Instead, we keep the `assets/` directory and original documentation untouched, a
 
 ## Acknowledgments and Sources
 
-This project stands on the shoulders of over a decade of community work. None of the cryptanalysis knowledge, rune transcriptions, or puzzle documentation originated here — we organized and restructured it for AI consumption.
+This project stands on the shoulders of over a decade of community work. None of the cryptanalysis knowledge, rune transcriptions, or puzzle documentation originated here — I organized and restructured it for AI consumption.
 
 ### The Foundation
 - **[scream314/cicada3301](https://github.com/scream314/cicada3301)** — The upstream repo this fork is built on. The most complete single-repo Cicada 3301 archive, with detailed walkthroughs and original binary artifacts.
 
 ### Rune Transcriptions and Data
-- **[rtkd/iddqd](https://github.com/rtkd/iddqd)** (188 stars) — The gold-standard community transcription of all 75 Liber Primus pages. Our `data/runes/` files are split from their master transcription. Also contains sentence-segmented transcriptions, known translations, cipher keys, and a TTF rune font.
-- **[Taiiwo/cicada](https://github.com/Taiiwo/cicada)** (18 stars) — Python library with programmatic access to the LP text and Gematria Primus mapping. Our `gematria_primus.json` was cross-validated against their `gematria.py`.
-- **[iBotPeaches/cicada_3301](https://github.com/iBotPeaches/cicada_3301)** (25 stars, updated March 2026) — Comprehensive solving toolkit with a Gematria Primus markdown table we used for cross-validation. Connor Tumbleson's [blog series](https://connortumbleson.com/2021/02/15/the-cicada-3301-mystery-puzzle-3-part1/) (4 parts, 2021-2024) is the best documented walkthrough of the 2014 puzzle.
+- **[rtkd/iddqd](https://github.com/rtkd/iddqd)** (188 stars) — The gold-standard community transcription of all 75 Liber Primus pages. The `data/runes/` files are split from their master transcription. Also contains sentence-segmented transcriptions, known translations, cipher keys, and a TTF rune font.
+- **[Taiiwo/cicada](https://github.com/Taiiwo/cicada)** (18 stars) — Python library with programmatic access to the LP text and Gematria Primus mapping. The `gematria_primus.json` was cross-validated against their `gematria.py`.
+- **[iBotPeaches/cicada_3301](https://github.com/iBotPeaches/cicada_3301)** (25 stars, updated March 2026) — Comprehensive solving toolkit with a Gematria Primus markdown table used for cross-validation. Connor Tumbleson's [blog series](https://connortumbleson.com/2021/02/15/the-cicada-3301-mystery-puzzle-3-part1/) (4 parts, 2021-2024) is the best documented walkthrough of the 2014 puzzle.
 
 ### Community Tools and Analysis
 - **[cicada-solvers](https://github.com/cicada-solvers)** (53 repos) — The community GitHub organization. Notable repos: [lp-decrypter](https://github.com/cicada-solvers/lp-decrypter) (brute-force decrypter with GUI), [libergo](https://github.com/cicada-solvers/libergo) (50+ Go CLI tools), [cmbcidada3301](https://github.com/cicada-solvers/cmbcidada3301) (.NET desktop analysis app), [GematriaPrimusTool](https://github.com/cicada-solvers/GematriaPrimusTool) (web translator).
