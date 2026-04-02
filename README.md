@@ -10,12 +10,29 @@ Of the 75 runic pages in the Liber Primus, **56 remain unsolved** after 12+ year
 
 ## What's New in This Fork
 
+### Structured Data
 | File | Description |
 |------|-------------|
 | [CLAUDE.md](CLAUDE.md) | AI onboarding: what to load first, how to approach analysis |
 | [data/gematria_primus.json](data/gematria_primus.json) | The Rosetta Stone: 29 runes mapped to letters and prime values (JSON) |
 | [data/solve_status.md](data/solve_status.md) | Which pages are solved/unsolved, what cipher, what key |
 | [data/runes/](data/runes/) | 75 individual rune transcription files (one per LP page) |
+| [data/solved_plaintext.md](data/solved_plaintext.md) | All 19 solved pages in reading order, English only |
+| [data/ciphers_reference.md](data/ciphers_reference.md) | Every cipher technique Cicada has used, with keys and parameters |
+| [data/magic_squares.json](data/magic_squares.json) | Three magic squares (5x5/3301, 7x7/1033, 5x5/1033) in structured format |
+| [data/unsolved_analysis.md](data/unsolved_analysis.md) | Per-section stats, rune counts, frequency analysis, attack priorities |
+
+### Puzzle Flow Diagrams (Mermaid)
+| File | Description |
+|------|-------------|
+| [data/2012_flow.md](data/2012_flow.md) | 2012 puzzle: 4chan → OutGuess → book codes → GPS coordinates → Tor |
+| [data/2013_flow.md](data/2013_flow.md) | 2013 puzzle: Book of Law → CicadaOS → Twitter XOR → Gematria Primus |
+| [data/2014_flow.md](data/2014_flow.md) | 2014 puzzle: 7 onion services → magic squares → Liber Primus delivery |
+
+### Tooling
+| File | Description |
+|------|-------------|
+| [.claude/skills/cicada/](/.claude/skills/cicada/) | `/cicada` skill: translate runes, compute GP sums, Vigenere, primality, frequency analysis |
 
 Data sourced from [rtkd/iddqd](https://github.com/rtkd/iddqd), [Taiiwo/cicada](https://github.com/Taiiwo/cicada), [iBotPeaches/cicada_3301](https://github.com/iBotPeaches/cicada_3301), and the [CicadaSolvers](https://www.cicadasolvers.com) community.
 
