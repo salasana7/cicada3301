@@ -1,0 +1,54 @@
+{
+  "squares": [
+    {
+      "order": 5,
+      "magic_constant": 3301,
+      "found_in": [
+        "LP page 16",
+        "OpenPuff extraction from Interconnectedness.mp3 (password: 33011033)"
+      ],
+      "notes": "First square in the OpenPuff output. Also appears on LP page 16 alongside the text 'AN INSTRUCTION: QUESTION ALL THINGS: DISCOVER TRUTH INSIDE YOURSELF: FOLLOW YOUR TRUTH: IMPOSE NOTHING ON OTHERS. KNOW THIS:'. The Sixth Onion submission form required an order-5 square summing to 3301.",
+      "matrix": [
+        [434, 1311, 312, 278, 966],
+        [204, 812, 934, 280, 1071],
+        [626, 620, 809, 620, 626],
+        [1071, 280, 934, 812, 204],
+        [966, 278, 312, 1311, 434]
+      ]
+    },
+    {
+      "order": 7,
+      "magic_constant": 1033,
+      "found_in": [
+        "OpenPuff extraction from Interconnectedness.mp3 (password: 33011033)"
+      ],
+      "notes": "Second square in the OpenPuff output. Only found via steganographic extraction, not on any LP page.",
+      "matrix": [
+        [7, 375, 236, 190, 27, 17, 181],
+        [351, 223, 14, 47, 293, 98, 7],
+        [456, 232, 121, 114, 72, 23, 15],
+        [16, 65, 270, 331, 270, 65, 16],
+        [15, 23, 72, 114, 121, 232, 456],
+        [7, 98, 293, 47, 14, 223, 351],
+        [181, 17, 27, 190, 236, 375, 7]
+      ]
+    },
+    {
+      "order": 5,
+      "magic_constant": 1033,
+      "found_in": [
+        "Third Onion server-status OOB data (fv7lyucmeozzd5j4.onion)",
+        "LP page 05",
+        "OpenPuff extraction from Interconnectedness.mp3 (password: 33011033)"
+      ],
+      "notes": "Third square in the OpenPuff output. Also found as out-of-band data between two embedded JPGs in the Apache server-status page of the Third Onion, and on LP page 05 where rune words map to numbers via the Gematria Primus (SHADOWS=341, AETHEREAL=366, BUFFERS=199, VOID=130, CARNAL=320, OBSCURA=245, FORM=91, MOBIUS=226, ANALOG=320, MOURNFUL=199, CABAL=341).",
+      "matrix": [
+        [272, 138, 341, 131, 151],
+        [366, 199, 130, 320, 18],
+        [226, 245, 91, 245, 226],
+        [18, 320, 130, 199, 366],
+        [151, 131, 341, 138, 272]
+      ]
+    }
+  ]
+}
