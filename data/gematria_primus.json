@@ -1,0 +1,55 @@
+{
+  "description": "Gematria Primus: the 29-rune cipher alphabet used by Cicada 3301. Values are the first 29 prime numbers. Cross-validated from Taiiwo/cicada gematria.py and iBotPeaches/cicada_3301 Gematria_Primus.md.",
+  "sources": [
+    "https://github.com/Taiiwo/cicada/blob/master/cicada/gematria.py",
+    "https://github.com/iBotPeaches/cicada_3301/blob/master/other/Gematria_Primus.md"
+  ],
+  "runes": [
+    {"index": 0,  "rune": "\u16A0", "unicode": "U+16A0", "letters": ["F"],       "value": 2},
+    {"index": 1,  "rune": "\u16A2", "unicode": "U+16A2", "letters": ["U", "V"],   "value": 3},
+    {"index": 2,  "rune": "\u16A6", "unicode": "U+16A6", "letters": ["TH"],       "value": 5},
+    {"index": 3,  "rune": "\u16A9", "unicode": "U+16A9", "letters": ["O"],        "value": 7},
+    {"index": 4,  "rune": "\u16B1", "unicode": "U+16B1", "letters": ["R"],        "value": 11},
+    {"index": 5,  "rune": "\u16B3", "unicode": "U+16B3", "letters": ["C", "K"],   "value": 13},
+    {"index": 6,  "rune": "\u16B7", "unicode": "U+16B7", "letters": ["G"],        "value": 17},
+    {"index": 7,  "rune": "\u16B9", "unicode": "U+16B9", "letters": ["W"],        "value": 19},
+    {"index": 8,  "rune": "\u16BB", "unicode": "U+16BB", "letters": ["H"],        "value": 23},
+    {"index": 9,  "rune": "\u16BE", "unicode": "U+16BE", "letters": ["N"],        "value": 29},
+    {"index": 10, "rune": "\u16C1", "unicode": "U+16C1", "letters": ["I"],        "value": 31},
+    {"index": 11, "rune": "\u16C4", "unicode": "U+16C4", "letters": ["J"],        "value": 37},
+    {"index": 12, "rune": "\u16C7", "unicode": "U+16C7", "letters": ["EO"],       "value": 41},
+    {"index": 13, "rune": "\u16C8", "unicode": "U+16C8", "letters": ["P"],        "value": 43},
+    {"index": 14, "rune": "\u16C9", "unicode": "U+16C9", "letters": ["X"],        "value": 47},
+    {"index": 15, "rune": "\u16CB", "unicode": "U+16CB", "letters": ["S", "Z"],   "value": 53},
+    {"index": 16, "rune": "\u16CF", "unicode": "U+16CF", "letters": ["T"],        "value": 59},
+    {"index": 17, "rune": "\u16D2", "unicode": "U+16D2", "letters": ["B"],        "value": 61},
+    {"index": 18, "rune": "\u16D6", "unicode": "U+16D6", "letters": ["E"],        "value": 67},
+    {"index": 19, "rune": "\u16D7", "unicode": "U+16D7", "letters": ["M"],        "value": 71},
+    {"index": 20, "rune": "\u16DA", "unicode": "U+16DA", "letters": ["L"],        "value": 73},
+    {"index": 21, "rune": "\u16DD", "unicode": "U+16DD", "letters": ["NG", "ING"],"value": 79},
+    {"index": 22, "rune": "\u16DF", "unicode": "U+16DF", "letters": ["OE"],       "value": 83},
+    {"index": 23, "rune": "\u16DE", "unicode": "U+16DE", "letters": ["D"],        "value": 89},
+    {"index": 24, "rune": "\u16AA", "unicode": "U+16AA", "letters": ["A"],        "value": 97},
+    {"index": 25, "rune": "\u16AB", "unicode": "U+16AB", "letters": ["AE"],       "value": 101},
+    {"index": 26, "rune": "\u16A3", "unicode": "U+16A3", "letters": ["Y"],        "value": 103},
+    {"index": 27, "rune": "\u16E1", "unicode": "U+16E1", "letters": ["IA", "IO"], "value": 107},
+    {"index": 28, "rune": "\u16E0", "unicode": "U+16E0", "letters": ["EA"],       "value": 109}
+  ],
+  "punctuation": {
+    "word_separator": "\u2022",
+    "word_separator_alt": "-",
+    "clause_separator": ".",
+    "paragraph_separator": "&",
+    "section_separator": "$",
+    "chapter_separator": "\u00A7",
+    "line_break": "/",
+    "page_break": "%"
+  },
+  "notes": {
+    "alphabet_order": "ᚠᚢᚦᚩᚱᚳᚷᚹᚻᚾᛁᛄᛇᛈᛉᛋᛏᛒᛖᛗᛚᛝᛟᛞᚪᚫᚣᛡᛠ",
+    "value_sequence": "First 29 prime numbers (2 through 109)",
+    "ambiguous_runes": "ᚢ=U/V, ᚳ=C/K, ᛋ=S/Z — context-dependent",
+    "digraphs": "ᚦ=TH, ᛇ=EO, ᛝ=NG/ING, ᛟ=OE, ᚫ=AE, ᛡ=IA/IO, ᛠ=EA",
+    "2013_vs_2014": "The 2013 Gematria Primus used a different letter ordering (inverted). The 2014 version (this file) is the standard used for the Liber Primus."
+  }
+}
