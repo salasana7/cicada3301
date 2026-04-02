@@ -87,9 +87,10 @@ This fork was created on 2026-04-01 by a researcher investigating whether modern
 The restructuring prioritizes making the puzzle data machine-readable and contextually rich so that an AI assistant can load the Gematria Primus, understand what's been tried, and focus compute on what hasn't.
 
 ## Rules for AI Assistants
+- **NEVER attempt to OCR runes from the JPG images.** GPT-4 tried this (Jan 2024) and hallucinated extra characters due to variable rune box sizes. It does not work. Use the pre-transcribed text files in `data/runes/` instead — they are community-verified and authoritative.
 - The Gematria Primus in `data/gematria_primus.json` is the authoritative mapping. Do not guess rune values.
 - Check `data/solve_status.md` before working on any page — it may already be solved.
-- The rune transcriptions in `data/runes/` come from rtkd/iddqd and are community-verified. Trust them over OCR.
+- The rune transcriptions in `data/runes/` come from rtkd/iddqd and are community-verified. Trust them over any other source.
 - Pages 66-68 contain base60/decimal number grids, not runes. These may be encoded rune data in a different format.
 - PGP signatures in the original markdown files are verification artifacts. Skip them during analysis.
 - All Cicada messages are signed with PGP key 7A35090F. Any unsigned message is not from Cicada.
